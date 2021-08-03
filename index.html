@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css"> 
+    <script src="https://use.fontawesome.com/bbc7ac2d89.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+    <header>
+        <nav> 
+            <div class="logo">Photo<span>pi</span>X</div>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Glallery</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="icon">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <a href="#">Login</a>
+            </div>
+        </nav>
+        <section class="h-text">
+            <i class="fa fa-camera" aria-hidden="true" id="camera"></i>
+            <h1 >Capturing the moments that captivate yout heart</h1>
+            <input type="text" name="" placeholder="Search here...." id="">
+            <button> <i class="fa fa-search" aria-hidden="true"></i></button>
+        </section>
+    </header>
+    <section class="filter-gallery">
+        <div class="portfolio-menu">
+            <ul>
+                <li class="active" onclick="myFunction1()">All</li>
+                <li onclick="myFunction2()">Nature</li>
+                <li onclick="myFunction3()">Wedding</li>
+                <li onclick="myFunction4()">Fashion</li>
+            </ul>
+        </div>
+        <div class="portfolio-item">
+            <div class="itemNature" data-aos="flip-left" data-aos-offset="100" data-aos-delay="100">
+                <img src="img/p1.jpg"  id="image1" class=" image nature natureFashion natureWedding">
+            </div>
+            <div class="itemNature" data-aos="flip-left" data-aos-offset="100" data-aos-delay="200">
+                <img src="img/p2.jpg"  id="image2" class=" image nature natureFashion natureWedding">
+            </div>
+            <div class="itemNature" data-aos="flip-left" data-aos-offset="100" data-aos-delay="300">
+                <img src="img/p3.jpg"  id="image3" class=" image nature natureFashion natureWedding">
+            </div>
+            <div class="itemNature" data-aos="flip-down" data-aos-offset="100" data-aos-delay="100">
+                <img src="img/p4.jpg"  id="image4" class=" image wedding fashionWeeding natureWedding">
+            </div>
+            <div class="itemNature" data-aos="flip-down" data-aos-offset="100" data-aos-delay="200">
+                <img src="img/p5.jpg"  id="image5" class=" image wedding fashionWeeding natureWedding">
+            </div>
+            <div class="item nature" data-aos="flip-down" data-aos-offset="100" data-aos-delay="300">
+                <img src="img/p6.jpg"  id="image6" class=" image wedding fashionWeeding natureWedding">
+            </div>
+            <div class="itemNature" data-aos="zoom-out-down" data-aos-offset="100" data-aos-delay="100">
+                <img src="img/p7.jpg"  id="image7" class=" image fashion fashionWeeding natureFashion">
+            </div>
+            <div class="itemNature" data-aos="zoom-out-down" data-aos-offset="200" data-aos-delay="100">
+                <img src="img/p8.jpg"  id="image8" class="image fashion fashionWeeding natureFashion">
+            </div>
+            <div class="itemNature" data-aos="zoom-out-down" data-aos-offset="300" data-aos-delay="100">
+                <img src="img/p9.jpg"  id="image9" class="image fashion fashionWeeding natureFashion">
+            </div>
+        </div>
+    </section>
+    <section class="member">
+        <div class="member-info"  data-aos="zoom-in-up" data-aos-offset="100" data-aos-delay="100">
+            <h1>Our_Informations</h1>
+            <p>What our member says</p>
+        </div>
+        <div class="member-card"  data-aos="zoom-in-down" data-aos-offset="100" data-aos-delay="200">
+            <img src="img/member.jpg" alt="image" class="image10">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis consequuntur non accusamus eum magni ut reiciendis deleniti, autem dignissimos! Earum quos accusamus minima perferendis iure. Distinctio cum sapiente aperiam maxime?</p>
+            <h2>Abhay kant  Tiwari</h2>
+            <img src="img/icon1.png" alt="" class="icon">
+            <img src="img/icon2.png" alt="" class="icon">
+            <img src="img/icon3.png" alt="" class="icon">
+            <img src="img/icon4.png" alt="" class="icon">
+        </div>
+        <div class="m-image"  data-aos="zoom-in" data-aos-offset="100" data-aos-delay="300">
+            <img src="img/s1.jpg" alt="" srcset="">
+            <img src="img/s2.jpg" alt="" srcset="">
+            <img src="img/s3.jpg" alt="" srcset="">
+            <img src="img/s4.jpg" alt="" srcset="">
+            <img src="img/s5.jpg" alt="" srcset="">
+            <img src="img/s6.jpg" alt="" srcset="">
+        </div>
+    </section>
+    <footer>
+        <div class="newsletter" data-aos="fade-up" data-aos-offset="100" data-aos-delay="300">
+            <div>
+                <h2>Suscribe our newsletter</h2>
+                <p>We're a team non-cynics who truly care for  our work</p>
+            </div>
+            <div class="ntext" data-aos="fade-up-right" data-aos-offset="100" data-aos-delay="200">
+                <label>
+                    <input type="email" name="" id="" placeholder="Enter Your Email..">
+                    <button>Suscribe</button>
+                </label>
+            </div>
+        </div>
+        <div class="f-contect" data-aos="zoom-in-up" data-aos-offset="100" data-aos-delay="200">
+            <div>
+                <h1>Information</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <i class="fa fa-whatsapp"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-telegram"></i>
+                <i class="fa fa-twitter"></i>
+            </div>
+            <div>
+                <h1>Useful link</h1>
+                <p>About us</p>
+                <p>Gallery</p>
+                <p>Blog Post</p>
+                <p>Pricing plans</p>
+            </div>
+            <div>
+                <h1>Useful link</h1>
+                <p>About us</p>
+                <p>Gallery</p>
+                <p>Blog Post</p>
+                <p>Pricing plans</p>
+            </div>
+            <div>
+                <h1>Useful link</h1>
+                <p>About us</p>
+                <p>Gallery</p>
+                <p>Blog Post</p>
+                <p>Pricing plans</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
